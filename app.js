@@ -50,6 +50,7 @@ const cardArray = [
 ]
 
 console.log(cardArray)
+<<<<<<< HEAD
 
 const gridDisplay = document.querySelector('#grid')  // # = id
 
@@ -65,3 +66,5 @@ function createBoard() {
 }
 
 createBoard()
+=======
+>>>>>>> 3b7d0f39004ed7d57a4268731afff10fff133041
