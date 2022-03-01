@@ -49,4 +49,19 @@ const cardArray = [
     }
   ]
 
-console.log(cardArray)
+cardArray.sort(() => 0.5 - Math.random())
+
+const gridDisplay = document.querySelector('#grid')  // # = id
+
+console.log(gridDisplay)
+
+function createBoard() {
+  for(let i = 0; i<10;i++) {
+    const card = document.createElement('img');
+    card.setAttribute('src','images/blank.png')
+    card.setAttribute('data-id',i)
+    gridDisplay.appendChild(card)
+}
+}
+
+createBoard()
